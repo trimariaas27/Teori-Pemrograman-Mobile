@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application 175610056</string>
+    <string name="about_me">My Application 175610056
+        Pada dasarnya iOS \n
+        merupakan sistem operasi mobile seperti Android,\n
+        jadi kita bisa juga menganggapnya sebagai nyawa \n
+        dari perangkat. Secara fungsi keduanya amat
+        mirip. \n
+        Salah satu contohnya, \n
+        di Android ada istilah launcher aplikasi, \n
+        sedangkan di iOS tidak; semua icon aplikasi akan \n
+        ditampilkan di layar utama (homescreen). \n
+        iOS versi terbaru itu memperkenalkan fitur widget \n
+        pada bagian Notification Center.\n
+    </string>
+</resources>

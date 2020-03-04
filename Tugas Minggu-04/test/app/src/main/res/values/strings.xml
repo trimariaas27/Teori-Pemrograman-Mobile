@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_me"> \n \n
+
+    Android dapat menyediakan interface untuk Anda dalam membuat aplikasi serta mengelola manajemen filen aplikasi anda.
+    Untuk bahasa programman anda gunakan adalah Java. Dalam Android Studio, anda hanya tinggal menulis, mengedit, menyimpan
+    dan testing project beserta dan file lainnya yang ada dalam project itu hanya dengan android studio.
+    Tidak hanya itu, keunggulan menggunakan Android Studio juga memberi Anda akses ke Android Software Development Kit (SDK).
+    SDK adalah sebuah ekstensi dari kode Java yang memperbolehkannya untuk berjalan dengan mulus di device Android. Untuk,
+    Java nya dibutuhkan untuk menulis program, Android SDK sangat diperlukan untuk menjalankan programnya di Android.
+
+
+    Android Studio memiliki operating system yang open source alias gratis, sehingga memudahkan anda untuk mengembangkan
+    aplikasi dengan android studio.
+    Dengan android yang bisa support dengan banyak versi mulai dari Oreo, Jelly Bean, Kitkat memudahkan anda untuk membuat aplikasi
+    Bahkan anda dapat membuat aplikasi dengan drag and drop pada laman kerja anda karena android memiliki emulator yang fleksibel.
+    Dengan segala keuntungan ini, android studio dapat memudahkan para pembuat aplikasi atau programmer untuk membuat aplikasi dengan cepat.
+</string>
+
+</resources>

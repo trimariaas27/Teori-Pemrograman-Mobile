@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#F7161414"
+        android:text="About Me"
+        android:textColor="#FFFDFD"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="335dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#009688"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name : Maria Tri Astuti"
+        android:textColor="#F2110101"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TTL : Palembang 27 Mei 1999"
+        android:textColor="#F3140101"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="410dp"
+        android:layout_height="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="386dp"
+            android:layout_height="252dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:background="#F2030101"
+            android:text="@string/about_me"
+            android:textColor="#FCF5F5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:text="SELESAI"
+        android:textColor="#0F0101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#009688"
+        android:text="LANJUT"
+        android:textColor="#EE030000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
