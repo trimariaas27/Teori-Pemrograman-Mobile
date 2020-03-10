@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JatpackNavigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Data_Diri">"Nama Saya Adalah Maria Tri Astut, Saya Lahir Di Palembang Pada Tanggal 27 Mei 1999. Saat Ini Saya Sedang Menempuh Pendidikan Di STMIK AKAKOM YOGYAKARTA."</string>
+</resources>
