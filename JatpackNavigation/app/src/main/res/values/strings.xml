@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JatpackNavigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Data_Diri">"Nama Saya Adalah Maria Tri Astuti, Saya Lahir Di Palembang Pada Tanggal 27 Mei 1999. Saat Ini Saya Sedang Menempuh Pendidikan Di STMIK AKAKOM YOGYAKARTA.
+        Disini Saya Akan Memberikan Informasi Sedikit Mengenai Android Studio.Android Studio adalah Lingkungan Pengembangan Terpadu (Integrated Development Environment/IDE) resmi untuk pengembangan aplikasi Android
+        Android Studio menawarkan banyak fitur yang meningkatkan produktivitas Anda dalam membuat aplikasi Android, seperti:
+        Sistem build berbasis Gradle yang fleksibel
+        Emulator yang cepat dan kaya fitur
+        Lingkungan terpadu tempat Anda bisa mengembangkan aplikasi untuk semua perangkat Android
+        Terapkan Perubahan untuk melakukan push pada perubahan kode dan resource ke aplikasi yang sedang berjalan tanpa memulai ulang aplikasi
+        Template kode dan integrasi GitHub untuk membantu Anda membuat fitur aplikasi umum dan mengimpor kode sampel
+        Framework dan fitur pengujian yang lengkap.
+        "</string>
+</resources>
